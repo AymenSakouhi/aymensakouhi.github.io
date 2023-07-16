@@ -82,8 +82,7 @@ avatar: https://avatars.githubusercontent.com/u/37510225?v=4
 toc: true
 
 comments:
-  active: true
-  # The active options are as follows:
+  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
