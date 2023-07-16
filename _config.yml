@@ -26,7 +26,7 @@ tagline: Senior Front End Developer # it will display as the sub-title
 description: The React Rocketeer! 💥✨ Armed with curly-brace cape and a keyboard shield, I fearlessly crafts web experiences that leave users spellbound.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://aymensakouhi.github.io/"
+url: "https://aymensakouhi.github.io"
 
 github:
   username: AymenSakouhi # change to your github username
