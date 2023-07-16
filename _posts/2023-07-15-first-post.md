@@ -1,7 +1,7 @@
 ---
 title: My first blog
 author: Aymen Sakouhi
-date: 2023-07-17 12:27:00 +0200
+date: 2023-07-14 12:27:00 +0200
 categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
