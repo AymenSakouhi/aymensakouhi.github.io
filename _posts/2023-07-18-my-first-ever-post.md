@@ -1,7 +1,7 @@
 ---
 title: My first ever postouchka
 author: Aymen Sakouhi
-date: 2023-07-20 12:27:00 +0200
+date: 2023-07-06 12:27:00 +0800
 categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
