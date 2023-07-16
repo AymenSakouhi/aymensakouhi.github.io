@@ -1,108 +1,94 @@
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+<div align="center">
 
+  # Chirpy Jekyll Theme
 
-## Horizontal Rules
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
-___
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)](https://rubygems.org/gems/jekyll-theme-chirpy)
+  [![CI](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml/badge.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml)
+  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)](https://www.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cotes2020/jekyll-theme-chirpy&amp;utm_campaign=Badge_Grade)
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE)
+  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
 
+  [**Live Demo →**][demo]
 
-## Emphasis
+  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
 
-**This is bold text**
+</div>
 
-__This is bold text__
+## Features
 
-*This is italic text*
+<details>
+  <summary>
+    <i>Click to view features</i>
+  </summary>
+  <p>
 
-_This is italic text_
+  - Dark / Light Theme Mode
+  - Localized UI language
+  - Pinned Posts
+  - Hierarchical Categories
+  - Trending Tags
+  - Table of Contents
+  - Last Modified Date of Posts
+  - Syntax Highlighting
+  - Mathematical Expressions
+  - Mermaid Diagram & Flowchart
+  - Dark / Light Mode Images
+  - Embed Videos
+  - Disqus / Utterances / Giscus Comments
+  - Search
+  - Atom Feeds
+  - Google Analytics
+  - SEO & Performance Optimization
 
-~~Strikethrough~~
+  </p>
+</details>
 
+## Documentation
 
-## Blockquotes
+To explore usage, development, and upgrade guide of the project, please refer to
+the [Wiki][wiki].
 
+## Contributing
 
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
+Welcome to report bugs, help improve the code or submit new features.
+For more information, please see the ["Contributing Guidelines"][contribute-guide].
 
+## Credits
 
-## Lists
+This theme is mainly built with [Jekyll][jekyllrb] ecosystem,
+[Bootstrap][bootstrap], [Font Awesome][icons] and some other [wonderful tools][lib].
+The avatar and favicon design come from [Clipart Max][image].
 
-Unordered
+Thanks to all the [contributors][contributors]. Also, folks who submitted issues
+or unmerged PRs should not be forgotten. Because they reported bugs, shared ideas,
+or inspired me to write more readable documentation.
 
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
+Last but not least, thanks to [JetBrains][jetbrains] for providing the
+_Open Source Development_ license.
 
-Ordered
+## Sponsoring
 
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
+If you'd like to sponsor this project, the following options are available.
 
-## Code
+[![Ko-fi](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/coteschung)
+[![Wechat Pay](https://img.shields.io/badge/-Tip%20Me%20on%20WeChat-brightgreen?logo=wechat&logoColor=white)][donation]
+[![Alipay](https://img.shields.io/badge/-Tip%20Me%20on%20Alipay-blue?logo=alipay&logoColor=white)][donation]
 
-Inline `code`
+## License
 
-Indented code
+This work is published under [MIT][mit] License.
 
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-
-## The End!
+[jekyllrb]: https://jekyllrb.com/
+[bootstrap]: https://getbootstrap.com/
+[icons]: https://fontawesome.com/
+[image]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
+[demo]: https://cotes2020.github.io/chirpy-demo/
+[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
+[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/.github/CONTRIBUTING.md
+[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
+[lib]: https://github.com/cotes2020/chirpy-static-assets
+[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+[donation]: https://sponsor.cotes.page/
+[mit]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
