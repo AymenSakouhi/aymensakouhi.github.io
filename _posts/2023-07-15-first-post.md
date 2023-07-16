@@ -1,6 +1,6 @@
 ---
 title: My first blog
-author: Aymen Sakouhi
+author: AymenSakouhi
 date: 2023-07-14 12:27:00 +0200
 categories: [Blogging, Tutorial]
 tags: [writing]
