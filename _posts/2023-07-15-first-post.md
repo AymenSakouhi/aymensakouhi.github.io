@@ -1,15 +1,36 @@
 ---
-title: My first blog
-author: AymenSakouhi
-date: 2023-07-14 12:27:00 +0200
+title: Customize the Favicon
+author: cotes
+date: 2021-08-11 00:34:00 +0800
 categories: [Blogging, Tutorial]
-tags: [writing]
-render_with_liquid: false
+tags: [favicon]
 ---
 
-This tutorial will guide you how to write a post in the _Chirpy_ template, and it's worth reading even if you've used Jekyll before, as many features require specific variables to be set.
+The [favicons](https://www.favicon-generator.org/about/) of [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/) are placed in the directory `assets/img/favicons/`{: .filepath}. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
 
-## Naming and Path
+## Generate the favicon
 
-asdasdasdasdasdasdasdasdasdadasdasdasd
-lorem200
+Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool [**Real Favicon Generator**](https://realfavicongenerator.net/) and click the button <kbd>Select your Favicon image</kbd> to upload your image file.
+
+In the next step, the webpage will show all usage scenarios. You can keep the default options, scroll to the bottom of the page, and click the button <kbd>Generate your Favicons and HTML code</kbd> to generate the favicon.
+
+## Download & Replace
+
+Download the generated package, unzip and delete the following two from the extracted files:
+
+- `browserconfig.xml`{: .filepath}
+- `site.webmanifest`{: .filepath}
+
+And then copy the remaining image files (`.PNG`{: .filepath} and `.ICO`{: .filepath}) to cover the original files in the directory `assets/img/favicons/`{: .filepath} of your Jekyll site. If your Jekyll site doesn't have this directory yet, just create one.
+
+The following table will help you understand the changes to the favicon files:
+
+| File(s) | From Online Tool | From Chirpy |
+| ------- | :--------------: | :---------: |
+| `*.PNG` |        ✓         |      ✗      |
+| `*.ICO` |        ✓         |      ✗      |
+
+> ✓ means keep, ✗ means delete.
+> {: .prompt-info }
+
+The next time you build the site, the favicon will be replaced with a customized edition.

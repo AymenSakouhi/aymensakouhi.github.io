@@ -10,51 +10,56 @@ baseurl: ""
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: es
+
+# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
+prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Germany/Munich
+timezone: Europe/Madrid
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Aymen Sakouhi # the main title
+title: Marcos Ruiz # the main title
 
-tagline: Senior Front End Developer # it will display as the sub-title
+tagline: Trabaja duro para ser vago # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Blog personal enfocado en los ciclos de DAM, DAW, ASIR y SMR.
-The React Rocketeer! 💥✨ Armed with curly-brace cape and a keyboard shield, I fearlessly crafts web experiences that leave users spellbound.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://aymensakouhi.github.io"
+url: "https://marcosruiz.github.io"
 
 github:
-  username: aymensakouhi # change to your github username
+  username: marcosruiz # change to your github username
 
 twitter:
-  username: rodndjok # change to your twitter username
+  username: whataweekhuh # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Aymen Sakouhi
-  email: aymenmarketer@gmail.com # change to your email address
+  name: Marcos Ruiz
+  email: profesor.mruizg@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/rodndjok # change to your twitter homepage
-    - https://github.com/aymensakouhi # change to your github homepage
+    - https://github.com/marcosruiz # change to your github homepage
+    - https://twitter.com/whataweekhuh # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+google_site_verification: google_meta_tag_verification # change to your verification string
 
 # ↑ --------------------------
-# The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: "G-9FLYEX2BCN" # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path: # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
@@ -77,13 +82,14 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/37510225?v=4
+avatar: https://avatars.githubusercontent.com/u/7647613?v=4
 
-# boolean type, the global switch for TOC in posts.
+# boolean type, the global switch for ToC in posts.
 toc: true
 
 comments:
   active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
@@ -92,14 +98,13 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: AymenSakouhi/aymensakouhi.github.io
-    repo_id: R_kgDOJoNdZw
-    category: Announcements
-    category_id: DIC_kwDOJoNdZ84CX7bY
+    repo: marcosruiz/marcosruiz.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOGm1dzA
+    category: General
+    category_id: DIC_kwDOGm1dzM4CAjhb
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
@@ -108,9 +113,6 @@ assets:
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development|production]
-
-pwa:
-  enabled: true # the option for PWA feature
 
 paginate: 10
 
@@ -179,9 +181,8 @@ exclude:
   - "*.gemspec"
   - tools
   - README.md
-  - CHANGELOG.md
   - LICENSE
-  - rollup.config.js
+  - gulpfile.js
   - node_modules
   - package*.json
 
