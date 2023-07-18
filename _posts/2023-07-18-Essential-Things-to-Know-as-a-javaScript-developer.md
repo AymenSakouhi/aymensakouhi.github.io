@@ -2,7 +2,7 @@
 title: Customize the Favicon
 date: 2021-08-11 00:34:00 +0800
 categories: [Blogging, Tutorial]
-tags: [favicon]
+tags: [javascript, how to write code, senior dev]
 pin: true
 math: true
 mermaid: true
