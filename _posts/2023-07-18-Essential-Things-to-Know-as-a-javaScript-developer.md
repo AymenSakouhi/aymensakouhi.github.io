@@ -1,5 +1,5 @@
 ---
-title: Customize the Favicon
+title: 10 Essential Things to Know as a JavaScript Developer
 date: 2021-08-11 00:34:00 +0800
 categories: [Blogging, Tutorial]
 tags: [javascript, how to write code, senior dev]
