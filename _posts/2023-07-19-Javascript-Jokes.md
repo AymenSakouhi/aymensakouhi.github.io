@@ -46,3 +46,13 @@ Why did the JavaScript code go to jail?
 Because it was undefined and couldn't console itself!
 
 Feel free to share these jokes with your fellow JavaScript enthusiasts for some programming humor! Also, feel free to comment below with new ones and I will add them.
+
+Java and JavaScript are two very different programming languages, but they often get confused with each other due to their names. Here's a joke to illustrate this: Java is to JavaScript what car is to carpet.
+
+What does Array(16).join("wat" - 1) + " Batman!" return?
+"NaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaN Batman!"
+
+Why do JavaScript closures like to gossip?
+Because they always have access to the outer scope.
+
+
